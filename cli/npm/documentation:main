@@ -1,0 +1,74 @@
+AiSocialNinja CLI Documentation
+Welcome to the documentation for the AiSocialNinja Command-Line Interface (CLI). This guide will help you install, configure, and use the CLI to interact with AiSocialNinja services efficiently.
+
+Table of Contents
+Introduction
+Installation
+Getting Started
+Available Commands
+Examples and Use Cases
+Troubleshooting
+FAQ
+Further Resources
+Introduction
+The AiSocialNinja CLI is a powerful tool that allows users to interact with the AiSocialNinja platform directly from their terminal. It streamlines workflows for developers and power users.
+
+Installation
+To install the CLI globally via npm:
+
+sh
+npm install -g aisocialninja
+Note: Node.js version 16 or above is recommended.
+
+Getting Started
+After installation, verify your CLI version:
+
+sh
+aisocialninja --version
+To see available commands and options:
+
+sh
+aisocialninja --help
+Available Commands
+Command	Description	Example Usage
+init	Initialize a new configuration	aisocialninja init
+login	Authenticate your CLI session	aisocialninja login
+post	Schedule or send a social post	aisocialninja post
+status	View current status or recent activity	aisocialninja status
+(Add/modify commands as per your CLI)
+
+Examples and Use Cases
+1. Initializing the CLI
+sh
+aisocialninja init
+Follow the prompts to set up your configuration file.
+
+2. Logging In
+sh
+aisocialninja login
+Authenticate with your AiSocialNinja account securely.
+
+3. Scheduling a Social Post
+sh
+aisocialninja post --message "Hello world!" --schedule "2025-06-19 09:00"
+Schedule a post for your connected accounts.
+
+Troubleshooting
+Command Not Found: Ensure npm global bin is in your PATH.
+Authentication Issues: Try running aisocialninja login again.
+Permission Denied: Use sudo if necessary, but only when required.
+FAQ
+Q: Can I use the CLI without an AiSocialNinja account?
+A: No, an active account is required for authentication.
+
+Q: How do I update the CLI?
+A: Run npm update -g aisocialninja to get the latest version.
+
+Further Resources
+AiSocialNinja Website
+Full Documentation
+Support
+AiSocialNinja CLI Example Screenshot
+
+Alt text: Screenshot showing usage of the AiSocialNinja CLI to schedule a post.
+
